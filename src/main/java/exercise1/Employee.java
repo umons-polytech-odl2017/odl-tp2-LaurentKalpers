@@ -1,6 +1,9 @@
 package exercise1;
 
-public class Employee {
+public abstract class Employee {
+
+	protected String name;
+
 	public int computeSalary() {
 		return 0;
 	}
@@ -9,7 +12,8 @@ public class Employee {
 
 	public void workOneHour() { }
 
-	public String getName() {
-		return null;
+
+	String getName() {
+		return name;
 	}
 }
