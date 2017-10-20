@@ -8,9 +8,7 @@ public abstract class Employee {
 		return 0;
 	}
 
-	public void sell() {
-
-	}
+	public void sell() { }
 
 	public void workOneHour() { }
 

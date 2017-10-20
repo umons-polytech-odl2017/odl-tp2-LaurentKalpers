@@ -1,14 +1,14 @@
 package exercise1;
 
 public class FixedSalaryEmployee extends Employee {
-	private int salaire;
+	private int fixedSalary;
 
 	public FixedSalaryEmployee(String name,int fixedSalary) {
 	this.name=name;
-	this.salaire=fixedSalary;
+	this.fixedSalary=fixedSalary;
 	}
 
 	public int computeSalary() {
-		return salaire;
+		return fixedSalary;
 	}
 }

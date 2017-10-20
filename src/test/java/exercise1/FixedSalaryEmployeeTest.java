@@ -16,7 +16,7 @@ public class FixedSalaryEmployeeTest extends AbstractEmployeeTest {
 
 	@Test
 	public void computeSalary_with_work_hours() {
-		Employee employee = exercise1.buildFixedSalaryEmployee("Bravo", 2625);
+		Employee employee = exercise1.buildFixedSalaryEmployee("BrafixedSalaryvo", 2625);
 		for (int i = 0; i < 160; i++) {
 			employee.workOneHour();
 		}
