@@ -2,7 +2,7 @@ package exercise1;
 
 public class WorkHourSalaryEmployee extends Employee {
 	private int hourRate;
-	private static int  hoursdone=0;
+	private int hoursdone=0;
 	@Override
 	public void workOneHour() {
 

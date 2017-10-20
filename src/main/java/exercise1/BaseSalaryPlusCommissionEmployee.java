@@ -1,7 +1,7 @@
 package exercise1;
 
 public class BaseSalaryPlusCommissionEmployee extends Employee {
-	private static int sel;
+	private int sel=0;
 	private int commission;
 	private int base_salary;
 
@@ -10,7 +10,6 @@ public class BaseSalaryPlusCommissionEmployee extends Employee {
 		this.name=name;
 		this.base_salary=base_salary;
 		this.commission=commission;
-		this.sel=0;
 	}
 
 
@@ -21,8 +20,8 @@ public class BaseSalaryPlusCommissionEmployee extends Employee {
 
 	@Override
 	public int computeSalary() {
-		int sal=base_salary+sel*commission;
-		return sal;
+
+		return (base_salary+sel*commission);
 	}
 
 
