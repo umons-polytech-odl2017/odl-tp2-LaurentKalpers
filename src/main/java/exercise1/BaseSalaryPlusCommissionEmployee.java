@@ -13,7 +13,6 @@ public class BaseSalaryPlusCommissionEmployee extends Employee {
 	}
 
 
-	@Override
 	public void sell() {
 		sel++;
 	}
